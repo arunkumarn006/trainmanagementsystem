@@ -1,7 +1,3 @@
-package com.trainmanagement.service;
-
-import com.trainmanagement.models.User;
-import com.trainmanagement.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
@@ -23,4 +19,3 @@ public class UserService {
         return userRepository.findByUsername(username);
     }
 }
-    
