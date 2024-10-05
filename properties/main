@@ -1,0 +1,4 @@
+spring.datasource.url=jdbc:mysql://localhost:3306/train_management
+spring.datasource.username=whocares
+spring.datasource.password=noonecares
+spring.jpa.hibernate.ddl-auto=update
